@@ -29,14 +29,6 @@ int main(int argc, char *argv[])
     }
 
     char buf[256];
-    ret = recv(client, buf, sizeof(buf), 0);
-    if (ret <= 0)
-        printf("Phan hoi tu may chu.\n"); 
-    if (ret < sizeof(buf))
-        buf[ret] = 0;
-
-    printf("%d bytes received\n", ret);
-    printf("%s\n", buf);
 
     printf("bat dau gui du lieu, nhap 'exit' de ket thuc\n");
 
