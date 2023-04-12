@@ -1,5 +1,3 @@
-hello
-chao ban
-toi la b
-s 
-s	s
+xin chao
+toi la client
+ket thuc 
