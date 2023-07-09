@@ -10,7 +10,6 @@
 #include <sys/types.h>
 #include <sys/wait.h>
 #include <pthread.h>
-#include <limits.h>
 #include <dirent.h>
 
 int port;
